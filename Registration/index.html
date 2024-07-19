@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraition</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+    <!--  Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-head">
+            <img src="./assets/images/Logo.svg" alt="ico" class="ico">
+            <img src="./assets/images/FindScope.svg" alt="findScope" class="find__scope">
+        </div>
+        <div class="right-head">
+            <img src="./assets/images/list.svg" class="list__ico" alt="list__ico">
+            <img src="./assets/images/Human.svg" alt="human-ico" class="human__ico">
+            <img src="./assets/images/buyer.svg" alt="buyer-ico" class="buyer__ico">
+        </div>
+    </header>   
+    <div class="main">
+        <section class="top-part">
+            <div class="text-top-part">
+                <p class="p5">REGISTRATION</p>
+            </div>
+        </section>
+        <section class="registration">
+            <div class="left-side">
+                <form action="" name="registration" id="registration" class="left-side__form">
+                    <div class="personal_data">
+                        <p class="text-data">Your Name</p>
+                        <input type="text" id="fName" name="fName" class="input" placeholder="First Name">
+                        <input type="text" id="lName" name="lName" class="input" placeholder="Last Name">
+                    </div>
+                    <div class="checkboxs">
+                        <input type="radio" name="gender" value="Female" id="female" checked>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="Male" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="login_data">
+                        <p class="text-data">Login details</p>
+                        <input type="email" name="email" placeholder="Email" id="email" class="input">
+                        <input type="password" name="password" placeholder="Password" id="password" class="input">
+                        <p class="small-text">
+                            Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
+                            lowercase letters
+                        </p>
+                    </div>
+                    <button class="join-button">
+                        <p>JOIN NOW</p>
+                        <img src="./assets/images/right.svg" alt="">
+                    </button>
+
+                </form>
+            </div>
+            <div class="right-side">
+                <p class="p1">LOYALTY HAS ITS PERKS</p>
+                <p class="p2">Get in on the loyalty program where you can earn points and unlock serious perks. Starting
+                    with
+                    these as soon as you join:</p>
+                <div class="categ">
+                    <div class="imgs">
+                        <img src="./assets/images/mark.svg" alt="">
+                        <img src="./assets/images/mark.svg" alt="">
+                        <img src="./assets/images/mark.svg" alt="">
+                        <img src="./assets/images/mark.svg" alt="">
+                        <img src="./assets/images/mark.svg" alt="">
+                    </div>
+                    <div class="text_to_img">
+                        <p>15% off welcome offer</p>
+                        <p class="big-t">Free shipping, returns and exchanges on all orders</p>
+                        <p>$10 off a purchase on your birthday</p>
+                        <p>Early access to products</p>
+                        <p>Exclusive offers & rewards</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe-left">
+                <img src="./assets/images/face.svg" alt="">
+                <p class="text-sub">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus condimentum</span>“
+                </p>
+            </div>
+            <div class="subscribe-right">
+                <div class="text-right">
+                    <p class="sub">
+                        SUBSCRIBE
+                    </p>
+                    <p class="sub-disc">
+                        FOR OUR NEWLETTER AND PROMOTION
+                    </p>
+                </div>
+                <div class="input-sub">
+                    <input type="text" name="sub" id="sub" class="sub-input" placeholder="Enter Your Email">
+                    <button class="b">
+                        <p class="b-text">
+                            Subscribe
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="left-footer">
+            <p>© 2023 Brand All Rights Reserved.</p>
+        </div>
+        <div class="right-footer">
+            <img src="./assets/images/iconsSocial.svg" alt="icons">
+        </div>
+    </footer>
+</body>
+
+</html>
